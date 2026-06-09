@@ -42,10 +42,10 @@ header .nav ul li a:hover{
     color:#7f95ff;
 }
 /* SECTION ONE START */
-section{
+.section1{
     background-color:#f9f9ff;
     width: 100%;
-    height: 750px;
+    height: 650px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,4 +111,34 @@ section{
     box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
     transition: all 0.5s ease-in 0.1s;
     outline: none;
+}
+/* SENTION ONE END */
+
+/* SECTION TWO START */
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 90%;
+    height: auto;
+}
+.section2 .img{
+    padding-left: 150px;
+}
+.text2 h3{
+    font-weight: normal;
+    color: rgba(0,0,0,0.7);
+    font-size: 15px;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 25px;
 }
